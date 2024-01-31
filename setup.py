@@ -30,7 +30,8 @@ setuptools.setup(
     author_email="",
     url="https://github.com/spesantez/my-rest-client",
     python_requires=">=3.6",
-    packages=["my_rest_client"],
+    #packages=["my_rest_client"],
+    packages=setuptools.find_packages(),
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Programming Language :: Python :: 3.8",
